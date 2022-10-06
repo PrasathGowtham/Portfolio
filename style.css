@@ -1,0 +1,62 @@
+html,body,.PageDiv{
+height: 100%;
+width:100%;
+font-family :  'Trebuchet MS', sans-serif;
+background-image: url(bg.jpg), url(bg.jpg);
+background-size: 100% 100%;
+}
+.Home{
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.row{
+  margin: 0px !important;
+}
+.HomeDetails > div{
+width:20%;
+height: 120px;
+padding: px;
+text-align: center;
+color: white;
+}
+.icons  i{
+  font-family: Font Awesome 5 Free !important;
+  color:white;
+  font-style: normal;
+}
+.ProfileDetails{
+  color: white;
+  font-weight: bold;
+}
+
+.empname{
+  background-image: linear-gradient(to left, #beb7a4, #cdc9b9, #dddbcf, #eeede6, #fffffc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 44px;
+}
+p{
+  margin-bottom: 0px !important;
+}
+.iconBA{
+  margin-left: 15px;
+}
+.HomeDetails i{
+  font-size: 45px;
+  
+}
+.HomeDetails{
+  margin-top: 10px !important;
+}
+.fab,.fas{
+  font-size: 50px;
+  background: linear-gradient(45deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
